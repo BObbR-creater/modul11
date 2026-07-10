@@ -18,7 +18,6 @@ public class Main {
             me = scanner.nextInt();
         }
 
-        System.out.println("Коллекция - " + integerSet);
         System.out.println("Уникальых чисел - " + integerSet.size());
     }
 

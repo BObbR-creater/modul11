@@ -3,6 +3,7 @@ package Middle.Middle4;
 import java.util.Comparator;
 
 public class CountryComparator implements Comparator<Country> {
+
     @Override
     public int compare(Country o1, Country o2) {
         if (o1.name.equals("Греция") && !o2.name.equals("Греция")) {

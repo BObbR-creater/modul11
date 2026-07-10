@@ -1,4 +1,4 @@
-package Middle.MIddle4;
+package Middle.Middle4;
 
 import java.util.*;
 
@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Set<Country> countries = new TreeSet<>();
+        Set<Country> countries = new TreeSet<>(new CountryComparator());
         countries.add(new Country("Япония"));
         countries.add(new Country("Россия"));
         countries.add(new Country("Франция"));
@@ -22,5 +22,7 @@ public class Main {
         countries.add(new Country("Германия"));
 
         System.out.println(countries);
+
+
     }
 }
